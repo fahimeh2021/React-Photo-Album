@@ -1,0 +1,29 @@
+.photo-detail-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding : 5rem 0;
+  max-width: 60%;
+  margin: 3rem auto;
+  h1 {
+    text-transform: capitalize;
+    color: white;
+  }
+
+  img {
+    height: 60vh;
+  }
+
+  button {
+    all: unset;
+    background-color: black;
+    color: white;
+    padding : 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer !important;
+    border-radius: 0.7rem;
+    border: 3px solid white;
+  }
+}
